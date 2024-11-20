@@ -1,0 +1,34 @@
+---
+title: "___"
+author: "___, ___, ___, ___"
+format:
+  pdf:
+    documentclass: report
+    toc: true
+editor: visual
+lang: fr
+---
+
+<!--# Ce travail doit faire entre 15 et 20 pages.-->
+
+<!--# Un rapport est différent d'un carnet de notes. Il ne s'agit donc pas de faire du copier-coller d'un document vers l'autre. Un rapport de synthèse doit être compréhensible sans devoir lire le carnet de notes. Le rapport de synthèse doit être  rédigé avec un style et une présentation adéquats. -->
+
+## Introduction
+
+<!--% Rédigez l'introduction de ce rapport.-->
+
+## But
+
+<!--% Rédigez le but de ce rapport.-->
+
+## Matériel et méthodes
+
+<!--% Cette section doit comprendre deux parties. La première partie doit expliciter le données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
+
+## Résultats
+
+<!--% Présentez les analyses les plus pertinents que vous avez sélectionnés. Structurez la section en partie avec des titres explicites de niveau trois.-->
+
+## Discussion et Conclusion
+
+<!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->

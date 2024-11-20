@@ -1,0 +1,49 @@
+---
+title: "___"
+author: "___"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+editor: visual
+lang: fr
+---
+
+<!--# Ceci est un commentaire. -->
+
+<!--% Ceci est une consigne. Ne jamais modifier ni déplacer les consignes dans le document ! -->
+
+<!--% Complétez le titre et le nom des auteurs (auteur1, auteur2, auteur3 et auteur 4) dans l'entête YAML.-->
+
+## Introduction et but
+
+<!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but. Vous devez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
+
+... Introduction et but...
+
+## Matériel et méthodes
+
+<!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets déjà réalisés. -->
+
+...Matériel et méthodes...
+
+## Analyses
+
+<!--% Lisez bien les éléments devant guider votre analyse proposée dans le README.-->
+
+```{r setup, include=FALSE}
+# Nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
+if (!"tools:tests" %in% search())
+  source(here::here("tests/tools_tests.R"), attach(NULL, name = "tools:tests"))
+# Configuration de l'environnement
+SciViews::R("ts")
+```
+
+<!--% Ajoutez le nombre de chunks que vous souhaitez. Répartissez vous le travail correctement. Structurez la section en partie avec des titres explicites de niveau trois.-->
+
+## Conclusion
+
+<!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les éléments les plus pertinents que vous retenez ? -->
+
+...vos conclusions ici...
