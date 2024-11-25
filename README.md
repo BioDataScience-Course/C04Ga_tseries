@@ -32,11 +32,23 @@ Vous effectuerez vos essais documentés dans le carnet de notes `mobility_notebo
 
 Les données ont été mises à disposition par Google pour une période de temps limitée. Une sauvegarde locale des données wallonnes a déjà été faite pour vous dans le dossier `data`. Le script `R/import_mobility.R` vous est fourni pour vous montrer comment cela a été réalisé. **Vous ne devez pas exécuter ce code.** Vous pouvez directement importer le fichier `.rds` du dossier `data` dans vos fichiers Rmd et Qmd.
 
-Voici quelques éléments ou questions qui doivent vous permettre d'alimenter votre réflexion sur l'analyse de cette série spatio-temporelle :
+Note : voici un exemple de code qui permet de ne retenir que les jours de la semaine (il est évidemment possible de ne retenir, à l'inverse, que les week-end), et d'ensuite aggréger la série temporelle à une observation moyenne par semaine.
 
--   Le gouvernement a imposé des mesures de confinement plus ou moins fortes. Est-il intéressant de découper la série en plusieurs parties afin de tenir compte des mesures de confinement ?
+```r
+# Copie de la série initiale sous une autre nom
+mobw <- mob
+# Calcul des jours de la semaine
+mobw$weekdays <- weekdays(as.POSIXct(mobw$date))
+# Les données du week-end sont remplacées par des valeurs manquantes
+mobw[mobw$weekdays == "Saturday" | mobw$weekdays == "Sunday" , 2:7] <- NA 
+# La série temporelle est créée (début le 15 février 2020 = 46e jour de l'année 2020)
+mobw_ts <- ts(mobw$parks_percent_change_from_baseline, start = c(2020, 46), frequency = 365)
+plot(mobw_ts)
+# Aggrégation par moyenne des valeurs par semaine
+mobw_ts2 <- aggregate(mobw_ts, 52, FUN = collapse::fmean, ts.eps = 1/52)
+plot(mobw_ts2)
+```
 
--   La mobilité est influencée par l'effet semaine/week-end. Est-il intéressant de réaliser différentes agrégations des données ou encore des découpages dans les données ?
 
 ## Important
 
