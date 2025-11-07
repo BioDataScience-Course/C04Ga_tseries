@@ -2,7 +2,7 @@
 
 ## Avant-propos
 
-Ce projet s'étale sur deux projets (module 4 et 5) du cours de Science des données Biologiques 3. Il est indispensable d'avoir assimilé l'ensemble des notions de ces modules. Il correspond au dépôt GitHub <https://github.com/BioDataScience-Course/C04Ga_tseries>.
+Ce projet s'étale sur deux projets (module 4 et 5) du cours de science des données biologiques 3. Il est indispensable d'avoir assimilé l'ensemble des notions de ces modules. Il correspond au dépôt GitHub <https://github.com/BioDataScience-Course/C04Ga_tseries>.
 
 ## Objectifs
 
@@ -32,7 +32,7 @@ Vous effectuerez vos essais documentés dans le carnet de notes `mobility_notebo
 
 Les données ont été mises à disposition par Google pour une période de temps limitée. Une sauvegarde locale des données wallonnes a déjà été faite pour vous dans le dossier `data`. Le script `R/import_mobility.R` vous est fourni pour vous montrer comment cela a été réalisé. **Vous ne devez pas exécuter ce code.** Vous pouvez directement importer le fichier `.rds` du dossier `data` dans vos fichiers Rmd et Qmd.
 
-Note : voici un exemple de code qui permet de ne retenir que les jours de la semaine (il est évidemment possible de ne retenir, à l'inverse, que les week-end), et d'ensuite aggréger la série temporelle à une observation moyenne par semaine.
+Note : voici un exemple de code qui permet de ne retenir que les jours de la semaine (il est évidemment possible de ne retenir, à l'inverse, que les week-ends), et d'ensuite agréger la série temporelle à une observation moyenne par semaine.
 
 ```r
 # Copie de la série initiale sous une autre nom
@@ -54,6 +54,6 @@ plot(mobw_ts2)
 
 Faites des commit - pull - push réguliers et gérez les conflits éventuels immédiatement.
 
-Effectuez un 'Rendu' des documents finaux en HTML ou PDF et assurez-vous que ce rendu se fait sans erreurs à la fin de votre travail (c'est très important car c'est en effet ce document final que l'on souhaite obtenir en éditant un fichier Quarto) !
+Effectuez un 'Rendu' des documents finaux en HTML ou PDF et assurez-vous que ce rendu se fait sans erreurs à la fin de votre travail (c'est très important, car c'est en effet ce document final que l'on souhaite obtenir en éditant un fichier Quarto) !
 
 À la fin, vérifiez que le dernier commit soit bien pris en compte dans votre dépôt sur GitHub. Vos enseignants ne voient que la version GitHub et c'est cette dernière qui sera corrigée et évaluée. Il est donc crucial que vos dépôts locaux soient bien synchronisés avec GitHub à la fin de votre travail.
