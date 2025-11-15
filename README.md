@@ -1,7 +1,5 @@
 # Mobilité en Wallonie avant et pendant la pandémie COVID-19
 
-## Avant-propos
-
 Ce projet s'étale sur deux projets (module 4 et 5) du cours de science des données biologiques 3. Il est indispensable d'avoir assimilé l'ensemble des notions de ces modules. Il correspond au dépôt GitHub <https://github.com/BioDataScience-Course/C04Ga_tseries>.
 
 ## Objectifs
@@ -22,7 +20,7 @@ Google met à disposition des données sur la mobilité des communautés durant 
 -   <https://www.gstatic.com/covid19/mobility/2021-11-26_BE_Wallonia_Mobility_Report_fr.pdf>
 -   <https://www.gstatic.com/covid19/mobility/2022-10-15_BE_Wallonia_Mobility_Report_fr.pdf>
 
-Dans ce travail, nous nous focaliserons sur la période de 2020, qui est la plus impactée d'un point de vue économique en Belgique à cause de la pandémie, ainsi que 2021, qui continue de subir le COVID-19, mais avec des règles moins contraignantes au niveau économique et des déplacements. L'année 2022 est la période la moins affectée par les mesures associées au COVID-19.
+Dans ce travail, nous nous focaliserons sur la période de 2020, qui est la plus impactée d'un point de vue économique en Belgique à cause de la pandémie, ainsi que 2021, qui continue de subir la COVID-19, mais avec des règles moins contraignantes au niveau économique et des déplacements. L'année 2022 est la période la moins affectée par les mesures associées au COVID-19.
 
 ## Consignes
 
@@ -57,3 +55,8 @@ Faites des commit - pull - push réguliers et gérez les conflits éventuels imm
 Effectuez un 'Rendu' des documents finaux en HTML ou PDF et assurez-vous que ce rendu se fait sans erreurs à la fin de votre travail (c'est très important, car c'est en effet ce document final que l'on souhaite obtenir en éditant un fichier Quarto) !
 
 À la fin, vérifiez que le dernier commit soit bien pris en compte dans votre dépôt sur GitHub. Vos enseignants ne voient que la version GitHub et c'est cette dernière qui sera corrigée et évaluée. Il est donc crucial que vos dépôts locaux soient bien synchronisés avec GitHub à la fin de votre travail.
+
+## Utilisation de l’IA
+
+Dans le cadre de votre travail, vous avez le droit d’être aidé par l’intelligence artificielle. Le chatbot SciViews est disponible dans votre RStudio sur Saturn Cloud via l’addin Help. Il répond aux questions concernant le langage R, les statistiques et la science des données.
+
