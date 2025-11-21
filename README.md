@@ -26,7 +26,7 @@ Dans ce travail, nous nous focaliserons sur la période de 2020, qui est la plus
 
 À partir des informations dont vous disposez dans le fichier `data/mobility_wallonia.rds` et considérant que l'enjeu est de quantifier l'impact de la COVID-19 sur les déplacements de personnes en Wallonie, expliquez, grâce aux techniques statistiques d'analyse des séries spatio-temporelles, ce qui s'est passé.
 
-Vous effectuerez vos essais documentés dans le carnet de notes `mobility_notebook.Qmd`. Ensuite, vous retirerez les éléments clés qui vous permettent de répondre à la question dans le rapport `mobility_report.Rmd`. Attention, le rapport de synthèse ne doit pas dépasser 10-15 pages (graphiques compris) et les deux documents doivent être compilables en version HTML sans erreurs.
+Vous effectuerez vos essais documentés dans le carnet de notes `covid_notebook.Qmd`. Ensuite, vous retirerez les éléments clés qui vous permettent de répondre à la question dans le rapport `covid_report.Qmd`. Attention, le rapport de synthèse ne doit pas dépasser 10-15 pages (graphiques compris) et les deux documents doivent être compilables en version HTML sans erreurs.
 
 Les données ont été mises à disposition par Google pour une période de temps limitée. Une sauvegarde locale des données wallonnes a déjà été faite pour vous dans le dossier `data`. Le script `R/import_mobility.R` vous est fourni pour vous montrer comment cela a été réalisé. **Vous ne devez pas exécuter ce code.** Vous pouvez directement importer le fichier `.rds` du dossier `data` dans vos fichiers Rmd et Qmd.
 
